@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHANASREE R- Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>DHANASREE R</h1>
+            <p>Web Developer | Designer | Programmer</p>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src=https://i.pinimg.com/736x/48/b7/c7/48b7c7486f93571454a0cd042375fc0f.jpg alt="Your Photo">
+                <div class="bio">
+                    <p>Hello! I'm a passionate web developer with experience in front-end and back-end development. I enjoy building user-friendly and visually appealing websites.</p>
+                    <p>Skills: HTML, CSS, JavaScript, React, Node.js</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript & React</li>
+                <li>Node.js & Express</li>
+                <li>Git & GitHub</li>
+                <li>UI/UX Design</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project">
+                <img src=https://thumbs.dreamstime.com/z/schedule-app-task-manager-ui-template-project-timeline-time-optimization-management-web-dashboard-interface-vector-design-247167215.jpg alt="Project 1">
+                <h3>Project One</h3>
+                <p>A web application that helps users manage their tasks and stay organized.</p>
+            </div>
+            <div class="project">
+                <img src=https://designshack.net/wp-content/uploads/Digital-Agency-Figma-Website-Template.jpg alt="Project 2">
+                <h3>Project Two</h3>
+                <p>An e-commerce website that allows users to browse and purchase products online.</p>
+            </div>
+            <div class="project">
+                <img src=https://th.bing.com/th/id/R.f702a5d700a27a48acbe3ec8b8800513?rik=YskIuolyI6e%2bJg&riu=http%3a%2f%2fdigitaltemplatemarket.com%2fwp-content%2fuploads%2f2018%2f04%2fVW-Blog.png&ehk=ESTO9hWD%2fG1VyWYF6Iimef1fL%2bFTabtHk6UOEQxp%2bR4%3d&risl=&pid=ImgRaw&r=0 alt="Project 3">
+                <h3>Project Three</h3>
+                <p>A personal blog where I share tutorials, tips, and articles on web development.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            
+            <a href="your-resume.pdf" download class="cta-btn">Download Resume</a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to reach out through the following:</p>
+            <ul>
+                <li>Email: your.email@example.com</li>
+                <li>Phone: +1234567890</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+<style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.about {
+    background-color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.bio {
+    max-width: 500px;
+}
+
+.bio p {
+    font-size: 18px;
+}
+
+.skills {
+    background-color: #eeeeee;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style-type: none;
+}
+
+.skills li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.projects {
+    background-color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.project {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+}
+
+.resume {
+    background-color: #eeeeee;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.resume h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: #333;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.cta-btn:hover {
+    background-color: #555;
+}
+
+.contact {
+    background-color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact ul {
+    list-style-type: none;
+}
+
+.contact li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+</style>
